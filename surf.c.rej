@@ -1,0 +1,10 @@
+--- surf.c
++++ surf.c
+@@ -232,6 +233,7 @@ static void togglefullscreen(Client *c, const Arg *a);
+ static void togglecookiepolicy(Client *c, const Arg *a);
+ static void toggleinspector(Client *c, const Arg *a);
+ static void find(Client *c, const Arg *a);
++static void insert(Client *c, const Arg *a);
+ 
+ /* Buttons */
+ static void clicknavigate(Client *c, const Arg *a, WebKitHitTestResult *h);
